@@ -1,0 +1,138 @@
+body{
+   padding: 20px;
+   font-family: "Karla", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+}
+#navbar{
+    display: flex   ;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-nav{
+    width: 20%;
+    display: flex;
+  
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    color: black;
+    font-size: larger;
+}
+
+
+  .button-23 {
+   
+    background-color: #D2C7F0;
+    border: 3px solid #222222;
+   height: 48px;
+ width: 198px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+  }
+  
+  .button-23:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  .button-23:active {
+    background-color: #D2C7F0;
+    border-color: #000000;
+    transform: scale(.96);
+  }
+  
+  .button-23:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;}
+    
+    #office{
+width: 610px;
+height: 282px;
+    }
+    .button-5 {
+      align-items: center;
+      background-clip: padding-box;
+      background-color: #000000;
+  height: 48px;
+width: 198px;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 1.25;
+      margin: 0;
+      min-height: 3rem;
+      padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+      position: relative;
+      text-decoration: none;
+      transition: all 250ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      width: auto;
+    }
+    
+    .button-5:hover,
+    .button-5:focus {
+      background-color: #000000;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    }
+    
+    .button-5:hover {
+      transform: translateY(-1px);
+    }
+    
+    .button-5:active {
+      background-color: #000000;
+      box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+      transform: translateY(0);
+    }
+
+    #middle{
+      display:flex;
+      align-items: center;
+      padding: 80px;
+    }
+    #left-mid{
+      background-color:#D2C7F0 ;
+      padding: 13px;
+      height: 16em;
+      width: 445px;
+    }
+    #bottom{
+      display: flex;
+      justify-content: space-around;
+    }
+    #lorem{
+      width: 692px;
+    }
+
+    
